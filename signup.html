@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <!-- bootstrap linking  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- css linking -->
+    <link rel="stylesheet" href="assets/css/style2.css">
+</head>
+<body>
+    <section class="wrapper">
+        <div class="container">
+            <div class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 text-center">
+
+                <!-- logo part  -->
+                <div class="logo">
+                    <img src="assets/img/logo.jpg" alt="company-logo">
+                </div>
+
+                <!-- form part -->
+                <form class="rounded bg-white shadow p-5">
+
+                    <!-- heading -->
+                    <h3 class="text-dark fw-bolder fs-4 mb-2">Create an Account </h3>
+
+                    <!-- link back to sign-in  -->
+                    <div class="fw-normal text-muted mb-3">
+                        Already have Account? <a href="login.html" class="text-primary fw-bold text-decoration-none">Sign in here!</a>
+                    </div>
+
+                    <div class="text-center text-muted text-uppercase mb-2">or</div>
+
+                    <!-- google linking -->
+                    <a href="#" class="btn btn-light login_with w-100 mb-4">
+                        <img src="assets/img/google-icon.svg" class=" g-logo img-fluid me-3" alt="google-logo">Sign in with Google</a>
+
+                    <!-- all form fields -->
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingFirstName" placeholder="name@example.com">
+                        <label for="floatingFirstName"> First Name</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingLastName" placeholder="name@example.com">
+                        <label for="floatingLastName"> Last Name</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+    
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                        <span class="password-info mt-2 ">
+                            Use 8 or more characters with a mix of letter, numbers & symbols
+                        </span>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingConfirmPassword" placeholder="Password">
+                        <label for="floatingConfirmPassword">Confirm Password</label>
+                    </div>
+
+                    <div class="form-check d-flex align-items-center">
+                        <input class="form-check-input" type="checkbox" id="gridcheck">
+                        <label class="form-check-label ms-2" for="gridcheck">
+                            I Agree <a href="#">Terms and Conditions</a>
+                        </label>
+                    </div>
+
+                    <!-- continue button -->
+                    <button type="submit" class="btn btn-primary submit_btn w-100 my-4">Continue</button>
+                    
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
