@@ -5,4 +5,4 @@
 - Includes a dark and light mode.
 
 
-![website](https://pratikrk.github.io/dairy-infrastructure/)
+[website](https://pratikrk.github.io/dairy-infrastructure/)
